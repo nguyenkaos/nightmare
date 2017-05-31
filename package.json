@@ -1,0 +1,20 @@
+{
+  "name": "now-examples-nightmare",
+  "description": "Example headless now deployment using xvfb",
+  "author": "Albin Ekblom (https://github.com/albinekb)",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "7.3.3",
+    "ms": "2.0.0",
+    "nightmare": "2.10.0",
+    "p-memoize": "1.0.0",
+    "xvfb-maybe": "0.2.1"
+  },
+  "scripts": {
+    "start": "xvfb-maybe micro",
+    "dev": "micro"
+  }
+}
