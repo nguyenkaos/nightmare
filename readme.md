@@ -13,7 +13,7 @@ $ cd nightmare
 $ now
 ```
 
-> Example: `https://now-examples-nightmare.now.sh/`
+> Example: https://now-examples-nightmare.now.sh/
 
 ## License
 
