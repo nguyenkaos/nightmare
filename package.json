@@ -16,5 +16,9 @@
   "scripts": {
     "start": "xvfb-maybe micro",
     "dev": "micro"
+  },
+  "now": {
+    "type": "docker",
+    "alias": "now-examples-nightmare.now.sh"
   }
 }
